@@ -35,4 +35,6 @@ function resetColors( id1, id2, id3) {
     secondBox.style.removeProperty("border");
     thirdBox.style.removeProperty("border");
 
+    
+
 }
