@@ -1,0 +1,113 @@
+<!doctype html>
+<html lang="en">
+
+<head>
+    <!-- Required meta tags -->
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+
+    <!-- Bootstrap CSS -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-1BmE4kWBq78iYhFldvKuhfTAU6auU8tT94WrHftjDbrCEXSU1oBoqyl2QvZ6jIW3" crossorigin="anonymous">
+
+<link href="assets/CSS/style.css" rel="stylesheet" type="text/css">
+
+    <title>Bootstrap/jQuery</title>
+</head>
+
+<body>
+
+    <div class="container-fluid">
+        <div class="row">
+            <h1 class="display-3">Boostrap and JS/jQuery Worksheet</h1>
+        </div>
+
+        <div class="row">
+            <h2 class="display-2">Infosys Class Work</h2>
+        </div>
+        <div class="container">
+         <div class="row boxesRow">
+                <div class="col firstBox boxes" id="first"></div>
+                <div class="col secondBox boxes" id="second"></div>
+                <div class="col thirdBox boxes" id="third"></div>
+
+
+                <div class="row changeButtonRow">
+
+                    <div class="col">
+            
+            
+                          <button class="btn btn-primary" onclick="changeButton('first')">Change Box 1</button>
+                    </div>
+              
+                    <div class="col">
+                          <button class="btn btn-secondary" onclick="changeButton('second')">Change Box 2</button>
+                    </div>
+              
+                    <div class="col">
+                          <button class="btn btn- btn-outline-info" onclick="changeButton('third')">Change Box 3</button>
+                    </div>
+              
+                    <div class="col">
+                          <button class="btn btn-outline-warning">Change All</button>
+                    </div>
+              
+              </div>
+            
+            
+            </div>
+            </div>
+        <div class="row">
+        <h4 class="display-5">Hide Buttons</h4>
+            </div>
+            <div class="row hideButtonRow">
+
+                <div class="col">
+                      <button class="btn btn-primary" onclick="hideButton('first')">Hide Box 1</button>
+                </div>
+          
+                <div class="col">
+                      <button class="btn btn-primary" onclick="hideButton('second')">Hide Box 2</button>
+                </div>
+          
+                <div class="col">
+                      <button class="btn btn-primary" onclick="hideButton('third')">Hide Box 3</button>
+                </div>
+          
+                <div class="col">
+                      <button class="btn btn-primary">Hide Box All</button>
+                </div>
+          
+                <div class="row finalRow">
+
+                    <div class="col">
+                          <button class="btn btn-danger" onclick="resetColors('first', 'second', 'third')">Reset Colors</button>
+                    </div>
+              
+                    <div class="col">
+                          
+                    </div>
+              
+                    <div class="col">
+                          
+                    </div>
+              
+                    <div class="col">
+                          <button class="btn btn-success">Show All</button>
+                    </div>
+              
+              </div>
+
+
+
+
+         </div>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.bundle.min.js"
+    integrity="sha384-ka7Sk0Gln4gmtz2MlQnikT1wXgYsOg+OMhuP+IlRH9sENBO0LRn5q+8nbTov4+1p"
+    crossorigin="anonymous"></script>
+
+    <script src="assets/JS/script.js" type="text/javascript"></
+    script>
+</body>
+
+</html>

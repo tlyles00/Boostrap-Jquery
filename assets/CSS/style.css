@@ -1,0 +1,42 @@
+body {
+    text-align: center;
+}
+
+h2, h4 {
+    text-decoration: underline;
+}
+
+h4 {
+    color: blue;
+}
+
+.firstBox {
+    width: 100px;
+    height: 75px;
+    background-color: red;
+    border: solid 5px black;
+}
+
+.secondBox {
+    width: 100px;
+    height: 75px;
+    background-color: blue;
+    border: dotted 5px yellow;
+    margin: 0 20px;
+}
+
+.thirdBox {
+    width: 100px;
+    height: 75px;
+    background-color: green;
+    border: solid 5px purple;
+}
+
+.boxesRow, .changeButtonRow, .hideButtonRow {
+    margin: 5px;
+}
+
+.finalRow {
+    marigin: 20px 0 0 0;
+}
+
